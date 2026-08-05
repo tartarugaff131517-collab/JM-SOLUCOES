@@ -568,7 +568,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Sparkles",
     badge: "Pronto para Morar",
     tags: ["Pós-Obra", "Higienização", "Vidros & Pisos"],
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
+    image: "/limpeza.jpg"
   },
   {
     id: "r8",
