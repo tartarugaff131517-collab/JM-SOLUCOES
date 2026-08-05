@@ -71,13 +71,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal }) => {
       {/* Hero Content */}
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-white flex flex-col justify-center min-h-screen">
         
-        {/* Top Tagline Pill */}
-        <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/15 px-4 py-2 rounded-full mb-6 w-fit animate-fade-in">
-          <span className="w-2 h-2 rounded-full bg-[#0066CC] animate-ping" />
-          <span className="w-2 h-2 rounded-full bg-[#0066CC]" />
-          <span className="text-xs sm:text-sm font-semibold tracking-wide text-gray-200">
-            {HERO_SLIDES[currentSlide].tag}
-          </span>
+        {/* Top Tagline */}
+        <div className="text-xs sm:text-sm font-extrabold tracking-widest text-blue-400 uppercase mb-6 animate-pulse">
+          Soluções em Alumínios e Reformas
         </div>
 
         {/* Main Title */}
