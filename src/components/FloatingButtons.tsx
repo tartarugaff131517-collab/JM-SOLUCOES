@@ -48,7 +48,7 @@ export const FloatingButtons: React.FC<FloatingButtonsProps> = ({ onOpenQuoteMod
               <span className="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-[#111111]" />
             </div>
             <div>
-              <p className="text-xs font-bold text-white font-['Plus_Jakarta_Sans']">JM SOLUÇÕES EM ALUMÍNIO</p>
+              <p className="text-xs font-bold text-white font-['Plus_Jakarta_Sans']">JM SOLUÇÕES</p>
               <p className="text-[10px] text-emerald-400 font-medium">Atendimento Técnico Online</p>
             </div>
           </div>

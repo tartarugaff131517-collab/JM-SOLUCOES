@@ -40,7 +40,7 @@ export const Differentials: React.FC = () => {
             Nossos Pilares
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mt-4 tracking-tight font-['Plus_Jakarta_Sans']">
-            Por Que Escolher a JM SOLUÇÕES EM ALUMÍNIO?
+            Por Que Escolher a JM SOLUÇÕES?
           </h2>
           <p className="text-lg text-gray-400 mt-3 font-light">
             Soluções que unem estética minimalista, segurança estrutural e a certeza de um investimento duradouro.

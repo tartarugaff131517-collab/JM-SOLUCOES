@@ -13,7 +13,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenQuoteModal }) => {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85"
-          alt="Projeto JM SOLUÇÕES EM ALUMÍNIO"
+          alt="Projeto JM SOLUÇÕES"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black/75 z-10" />

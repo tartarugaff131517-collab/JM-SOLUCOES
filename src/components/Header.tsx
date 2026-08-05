@@ -80,17 +80,24 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuoteModal }) => {
           
           {/* Logo */}
           <a href="#home" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#0066CC] to-blue-800 flex items-center justify-center text-white font-black text-lg shadow-lg shadow-blue-900/30 group-hover:scale-105 transition-transform">
-              JM
-            </div>
-            <div className="flex flex-col">
-              <span className="text-lg sm:text-xl font-black tracking-wider text-white uppercase font-['Plus_Jakarta_Sans'] leading-none">
-                JM <span className="text-[#0066CC]">SOLUÇÕES</span>
-              </span>
-              <span className="text-[10px] text-gray-400 tracking-widest font-medium uppercase mt-0.5">
-                Soluções em Alumínio
-              </span>
-            </div>
+            <svg className="w-10 h-10 shadow-lg shadow-blue-900/30 group-hover:scale-105 transition-transform duration-300" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="logo-blue-grad-header" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stopColor="#0066CC" />
+                  <stop offset="100%" stopColor="#002266" />
+                </linearGradient>
+                <linearGradient id="logo-cyan-grad-header" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stopColor="#00F2FE" />
+                  <stop offset="100%" stopColor="#4FACFE" />
+                </linearGradient>
+              </defs>
+              <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#logo-blue-grad-header)" />
+              <path d="M9 9V19C9 22 11.5 23 13.5 23C15.5 23 17 22 17 19.5" stroke="url(#logo-cyan-grad-header)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M17 9V22M17 9L22 14.5L27 9V22" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <span className="text-lg sm:text-xl font-black tracking-wider text-white uppercase font-['Plus_Jakarta_Sans']">
+              JM <span className="text-[#0066CC]">SOLUÇÕES</span>
+            </span>
           </a>
 
           {/* Desktop Nav */}

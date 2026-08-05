@@ -51,7 +51,7 @@ export const AboutSection: React.FC = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200 group">
               <img
                 src={ABOUT_INFO.factoryImage}
-                alt="Fábrica de Esquadrias JM SOLUÇÕES EM ALUMÍNIO"
+                alt="Fábrica de Esquadrias JM SOLUÇÕES"
                 className="w-full h-[450px] sm:h-[550px] object-cover img-zoom"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90" />

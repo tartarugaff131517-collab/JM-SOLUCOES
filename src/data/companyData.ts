@@ -11,7 +11,7 @@ import {
 } from '../types';
 
 export const COMPANY_INFO = {
-  name: "JM SOLUÇÕES EM ALUMÍNIO",
+  name: "JM SOLUÇÕES",
   subtitle: "Soluções de Alto Padrão em Alumínio e Vidro",
   slogan: "Arquitetura, Precisão e Engenharia em Esquadrias de Luxo",
   phone: "(11) 99999-8888",
@@ -43,7 +43,7 @@ export const TRUST_BAR_STATS = [
 export const ABOUT_INFO = {
   title: "A Engenharia Por Trás da Estética Perfeita",
   headline: "Transformamos conceitos arquitetônicos em estruturas de alumínio de precisão milimétrica.",
-  textParagraph1: "A JM SOLUÇÕES EM ALUMÍNIO nasceu da visão de elevar o padrão das caixilharias no Brasil. Unimos o rigor da engenharia estrutural com as tendências mais sofisticadas da arquitetura contemporânea internacional. Não fabricamos apenas esquadrias; desenvolvemos soluções de iluminação natural, conforto acústico e integração visual que valorizam empreendimentos de altíssimo padrão.",
+  textParagraph1: "A JM SOLUÇÕES nasceu da visão de elevar o padrão das caixilharias no Brasil. Unimos o rigor da engenharia estrutural com as tendências mais sofisticadas da arquitetura contemporânea internacional. Não fabricamos apenas esquadrias; desenvolvemos soluções de iluminação natural, conforto acústico e integração visual que valorizam empreendimentos de altíssimo padrão.",
   textParagraph2: "Nossa fábrica conta com maquinário CNC de última geração e equipe de engenheiros especializados na norma ABNT NBR 10821. Cada peça é usinada com precisão micron, tratada contra intempéries com anodização e pintura eletrostática especial, garantindo durabilidade extrema e funcionamento suave por décadas.",
   values: [
     { title: "Engenharia de Precisão", subtitle: "Cálculo estrutural e estanqueidade rigorosa em cada esquadria." },
@@ -307,7 +307,7 @@ export const BEFORE_AFTER_ITEMS: BeforeAfterItem[] = [
     category: "Residencial de Alto Padrão",
     beforeImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80",
     afterImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
-    description: "Troca de esquadrias pesadas de ferro com dividores verticais visíveis por caixilharia minimalista JM SOLUÇÕES EM ALUMÍNIO de vidro contínuo e trilho zero no piso.",
+    description: "Troca de esquadrias pesadas de ferro com dividores verticais visíveis por caixilharia minimalista JM SOLUÇÕES de vidro contínuo e trilho zero no piso.",
     specs: "Ganho de +40% de luminosidade natural e eliminação total de ruído externo."
   },
   {
@@ -371,7 +371,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     role: "Sócio Diretor na RMA Arquitetos",
     city: "São Paulo / SP",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
-    content: "Trabalho com a JM SOLUÇÕES EM ALUMÍNIO há mais de 8 anos nos projetos de casas de alto padrão do escritório. A precisão nos perfis minimalistas e a pontualidade na montagem de vãos de 6 metros de altura são impecáveis. Recomendo de olhos fechados.",
+    content: "Trabalho com a JM SOLUÇÕES há mais de 8 anos nos projetos de casas de alto padrão do escritório. A precisão nos perfis minimalistas e a pontualidade na montagem de vãos de 6 metros de altura são impecáveis. Recomendo de olhos fechados.",
     rating: 5,
     projectType: "Residência Minimalista de Luxo"
   },
@@ -454,7 +454,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "A busca pela integração total entre os ambientes internos e a natureza tem impulsionado a arquitetura residencial de alto padrão a adotar caixilhos com perfis cada vez mais esguios e discretos.",
       "As chamadas esquadrias minimalistas utilizam o próprio vidro como elemento estrutural, permitindo que a moldura metálica fique praticamente toda embutida nas paredes, pisos e forros.",
       "Com a capacidade de suportar folhas de vidro de mais de 800 kg com roldanas de rolamento náutico em aço inoxidável, a abertura de portas gigantescas se tornou leve, podendo ser operada até mesmo por uma criança.",
-      "Na JM SOLUÇÕES EM ALUMÍNIO, nosso sistema minimalista é testado sob pressão hidrostática extrema, garantindo que mesmo diante de tempestades tropicais não ocorra a mínima infiltração de água."
+      "Na JM SOLUÇÕES, nosso sistema minimalista é testado sob pressão hidrostática extrema, garantindo que mesmo diante de tempestades tropicais não ocorra a mínima infiltração de água."
     ]
   },
   {

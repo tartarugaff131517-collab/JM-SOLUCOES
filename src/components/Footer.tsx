@@ -29,17 +29,24 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuoteModal }) => {
           {/* Col 1: Brand & Bio (4 cols) */}
           <div className="lg:col-span-4 space-y-6">
             <a href="#home" className="flex items-center space-x-3 group">
-              <div className="w-10 h-10 rounded-lg bg-[#0066CC] flex items-center justify-center text-white font-black text-lg shadow-lg">
-                JM
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-black tracking-wider text-white uppercase font-['Plus_Jakarta_Sans'] leading-none">
-                  JM <span className="text-[#0066CC]">SOLUÇÕES</span>
-                </span>
-                <span className="text-[10px] text-gray-400 tracking-widest font-medium uppercase mt-0.5">
-                  Soluções em Alumínio
-                </span>
-              </div>
+              <svg className="w-10 h-10 shadow-lg shadow-blue-900/30 group-hover:scale-105 transition-transform duration-300" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="logo-blue-grad-footer" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stopColor="#0066CC" />
+                    <stop offset="100%" stopColor="#002266" />
+                  </linearGradient>
+                  <linearGradient id="logo-cyan-grad-footer" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stopColor="#00F2FE" />
+                    <stop offset="100%" stopColor="#4FACFE" />
+                  </linearGradient>
+                </defs>
+                <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#logo-blue-grad-footer)" />
+                <path d="M9 9V19C9 22 11.5 23 13.5 23C15.5 23 17 22 17 19.5" stroke="url(#logo-cyan-grad-footer)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M17 9V22M17 9L22 14.5L27 9V22" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <span className="text-xl font-black tracking-wider text-white uppercase font-['Plus_Jakarta_Sans']">
+                JM <span className="text-[#0066CC]">SOLUÇÕES</span>
+              </span>
             </a>
 
             <p className="text-xs text-gray-400 font-light leading-relaxed">
@@ -176,7 +183,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuoteModal }) => {
             {/* Embedded Google Map Simulation Frame */}
             <div className="w-full h-44 rounded-xl overflow-hidden border border-white/10 relative group">
               <iframe
-                title="JM SOLUÇÕES EM ALUMÍNIO Localização"
+                title="JM SOLUÇÕES Localização"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197573880479!2d-46.633308!3d-23.55052!2m3!1f0!1f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAxLjkiUyA0NsKwMzcnNTkuOSJX!5e0!3m2!1spt-BR!2sbr!4v1650000000000!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
@@ -197,7 +204,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuoteModal }) => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
-          <p>© {new Date().getFullYear()} JM SOLUÇÕES EM ALUMÍNIO - Soluções em Alumínio de Alto Padrão. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} JM SOLUÇÕES - Soluções em Alumínio de Alto Padrão. Todos os direitos reservados.</p>
           
           <div className="flex items-center space-x-6 text-[11px]">
             <a href="#home" className="hover:text-gray-300">Termos de Uso</a>

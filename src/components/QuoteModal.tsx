@@ -35,7 +35,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, presetS
     e.preventDefault();
 
     // Format Structured WhatsApp Message
-    const message = `*SOLICITAÇÃO DE ORÇAMENTO - JM SOLUÇÕES EM ALUMÍNIO*%0A%0A` +
+    const message = `*SOLICITAÇÃO DE ORÇAMENTO - JM SOLUÇÕES*%0A%0A` +
       `*Nome:* ${encodeURIComponent(formData.name)}%0A` +
       `*Telefone:* ${encodeURIComponent(formData.phone)}%0A` +
       `*E-mail:* ${encodeURIComponent(formData.email || 'Não informado')}%0A` +
@@ -44,7 +44,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, presetS
       `*Serviço Desejado:* ${encodeURIComponent(formData.serviceType)}%0A` +
       `*Prazo da Obra:* ${encodeURIComponent(formData.timeline)}%0A` +
       `*Observações:* ${encodeURIComponent(formData.notes || 'Sem detalhes adicionais')}%0A%0A` +
-      `_Enviado pelo formulário do site JM SOLUÇÕES EM ALUMÍNIO._`;
+      `_Enviado pelo formulário do site JM SOLUÇÕES._`;
 
     const whatsappUrl = `https://wa.me/${COMPANY_INFO.whatsappNumber}?text=${message}`;
 
