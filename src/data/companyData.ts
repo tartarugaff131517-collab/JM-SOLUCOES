@@ -538,7 +538,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Trash2",
     badge: "Eco-Responsável",
     tags: ["Caçamba", "Limpeza de Obra", "Resíduos"],
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80"
+    image: "/entulho.jpg"
   },
   {
     id: "r5",
