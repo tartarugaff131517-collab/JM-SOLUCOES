@@ -548,7 +548,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Zap",
     badge: "Fino Acabamento",
     tags: ["Porcelanato", "Azulejo", "Instalação Elétrica"],
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
+    image: "/acabamento.jpg"
   },
   {
     id: "r6",
