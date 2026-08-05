@@ -528,7 +528,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Layers",
     badge: "Nivelamento Técnico",
     tags: ["Qualquer Espessura", "Argamassa", "Regularização"],
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80"
+    image: "/contrapiso.jpg"
   },
   {
     id: "r4",
