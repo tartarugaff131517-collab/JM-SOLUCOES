@@ -638,7 +638,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Droplet",
     badge: "Infiltração Zero",
     tags: ["Vedação de PU", "Sem Infiltrações", "Estanqueidade"],
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+    image: "/vedacao.jpg"
   },
   {
     id: "r15",
