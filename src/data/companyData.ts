@@ -608,7 +608,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Wrench",
     badge: "Manutenção Preventiva",
     tags: ["Maxim-ar", "Puxadores", "Ferragens Inox"],
-    image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80"
+    image: "/maxim-ar.jpg"
   },
   {
     id: "r12",
@@ -628,7 +628,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Sun",
     badge: "Proteção Térmica & UV",
     tags: ["Película Solar", "Insulfilm Espelhado", "Privacidade"],
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80"
+    image: "/insulfilm.jpg"
   },
   {
     id: "r14",
@@ -648,7 +648,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Wind",
     badge: "Limpeza nas Alturas",
     tags: ["Fachada Predial", "Hydro-Jetting", "Trabalho em Altura"],
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?auto=format&fit=crop&w=800&q=80"
+    image: "/lavagem.jpg"
   },
   {
     id: "r16",
