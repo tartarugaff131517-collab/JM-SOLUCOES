@@ -508,7 +508,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "Hammer",
     badge: "Segurança & Agilidade",
     tags: ["Paredes", "Divisórias", "Remoção"],
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b3?auto=format&fit=crop&w=800&q=80"
+    image: "/demolicao.jpg"
   },
   {
     id: "r2",
