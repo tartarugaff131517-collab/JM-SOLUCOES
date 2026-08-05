@@ -578,7 +578,7 @@ export const RENOVATION_SERVICES: RenovationServiceItem[] = [
     iconName: "DoorClosed",
     badge: "Fabricação Própria",
     tags: ["Portas & Janelas", "Guarda-Corpo", "Box & Corrimão"],
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+    image: "/fabricacao.jpg"
   },
   {
     id: "r9",
